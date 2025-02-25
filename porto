@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background: #245618;
+            color: #fff;
+            padding: 20px;
+            font-size: 24px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 80px 20px 20px;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: left;
+            gap: 20px;
+        }
+        .profile img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+        .profile h2 {
+            font-size: 32px;
+        }
+        .section {
+            background: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .projects {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .projects .project-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+        }
+        .projects .project-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+        .projects img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .projects .project-item:hover img {
+            transform: scale(1.05);
+        }
+        .skills {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .skill-item {
+            background: #245618;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+        footer {
+            background: #245618;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .experience-section {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-section:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.experience-section h3 {
+    color: #245618;
+    border-bottom: 2px solid #245618;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.experience-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.experience-section li {
+    background: #f4f4f4;
+    padding: 10px;
+    border-left: 4px solid #245618;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.experience-section li:hover {
+    background: #e2e2e2;
+}
+
+.experience-section li strong {
+    color: #245618;
+    font-size: 18px;
+}
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        Portofolio Saya
+    </header>
+    <div class="container">
+        <div class="profile">
+            <img src="c:\\Users\\MyBook Hype AMD\\Downloads\\foto.jpeg" alt="Foto Profil">
+            <div>
+                <h2>Adinda</h2>
+                <p>Bersekolah SMK dengan jurusan rekayasa perangkat lunak (RPL) yang terbiasa bekerja dalam lingkungan dinamis dan cepat beradaptasi. Saya memiliki kemampuan komunikasi yang baik, mampu menyampaikan informasi secara jelas, serta memiliki pendekatan analitis dalam menyelesaikan masalah. Dengan sikap yang proaktif dan inovatif, saya selalu berusaha memberikan solusi terbaik dalam setiap tugas yang dihadapi.</p>
+            </div>
+        </div>
+        <div class="section">
+            <h3>Tentang Saya</h3>
+            <p>Saya memiliki kemampuan komunikasi yang baik dan dapat menyampaikan informasi secara jelas. Dengan pendekatan analitis, saya mampu menyelesaikan masalah dengan efektif. Selain itu, saya memiliki sikap proaktif dan inovatif dalam menghadapi setiap tantangan, serta selalu berusaha memberikan solusi terbaik dalam setiap tugas yang saya jalankan.</p>
+        </div>
+        <div class="section">
+            <h3>Skill</h3>
+            <div class="skills">
+                <div class="skill-item">HTML</div>
+                <div class="skill-item">CSS</div>
+                <div class="skill-item">JavaScript</div>
+                <div class="skill-item">PHP</div>
+                <div class="skill-item">MySQL</div>
+                <div class="skill-item">Problem Solving</div>
+                <div class="skill-item">Teamwork</div>
+                <div class="skill-item">Figma</div>
+            </div>
+        </div>
+        <div class="section">
+            <h3>Pendidikan</h3>
+            <p><strong>Mi Al-Wathoniyah 43</strong> 2014 S.d. 2020</p>
+            <p><strong>MTs Al-Wathoniyah 8</strong> 2020 S.d. 2023</p>
+            <p><strong>SMKN 71 Jakarta</strong> 2023 S.d. 2026</p>
+        </div>
+        <div class="experience-section">
+            <h3>Pengalaman</h3>
+            <ul>
+                <li><strong>Analisis Data MySQL</strong> – Mengoptimalkan kinerja database MySQL dengan menganalisis struktur data, meningkatkan efisiensi query, serta memastikan pengambilan data yang cepat dan akurat.</li>
+                <li><strong>Desain UI dengan Figma</strong> – Merancang antarmuka pengguna yang modern, intuitif, dan user-friendly menggunakan Figma, serta memastikan desain sesuai dengan kebutuhan pengguna dan prinsip UX/UI.</li>
+                <li><strong>Backend Development</strong> – Mengembangkan sistem backend dengan MySQL dan PHP, memastikan efisiensi dalam pengelolaan data, serta meningkatkan performa dan keamanan aplikasi web.</li>
+                <li><strong>Frontend Development</strong> – Membangun antarmuka website responsif dan interaktif menggunakan HTML, CSS, dan JavaScript, dengan fokus pada pengalaman pengguna yang optimal.</li>
+            </ul>
+        </div>
+        
+        <div class="section projects">
+            <h3>Proyek</h3>
+            <div class="project-gallery">
+                <div class="project-item">
+                    <img src="c:\Users\MyBook Hype AMD\Pictures\Screenshots\Screenshot 2024-09-27 134839.png" alt=Website profile sekolah">
+                </div>
+                <div class="project-item">
+                    <img src="c:\Users\MyBook Hype AMD\Pictures\Screenshots\Screenshot 2025-02-21 105125.png" alt="Website sertifikat">
+                </div>
+                <div class="project-item">
+                    <img src="c:\Users\MyBook Hype AMD\Pictures\Screenshots\Screenshot 2025-02-21 111116.png" alt="Project Website undangan online">
+                </div>
+                <div class="project-item">
+                    <img src="c:\Users\MyBook Hype AMD\Pictures\Screenshots\Screenshot 2025-02-22 225943.png" alt="Project login&regist javascript">
+                </div>
+                <div class="project-item">
+                    <img src="c:\Users\MyBook Hype AMD\Pictures\Screenshots\Screenshot 2025-02-22 225911.png" alt="Project CRUD Javascript">
+                </div>
+                <div class="project-item">
+                    <img src="c:\Users\MyBook Hype AMD\Downloads\WhatsApp Image 2025-02-22 at 22.56.53.jpeg" alt="Project flutter">
+                </div>
+                <div class="project-item">
+                    <img src="c:\Users\MyBook Hype AMD\Downloads\WhatsApp Image 2025-02-24 at 09.03.21.jpeg" alt="Logo">
+                </div>
+                <div class="project-item">
+                    <img src="c:\Users\MyBook Hype AMD\Downloads\Desain tanpa judul (1).png" alt="Mock-up aplikasi figma">
+                </div>
+                <div class="project-item">
+                    <img src="c:\Users\MyBook Hype AMD\Pictures\Screenshots\Screenshot 2025-02-24 091419.png" alt="Mock-up aplikasi figma">
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h3>Kontak</h3>
+            <p>Email: <a href="mailto:adinda.28122020@gmail.com">adinda.28122020@gmail.com</a></p>
+            <p>Telepon: <a href="https://wa.me/62881025139891" target="_blank">62881025139891</a></p>
+            <p>Alamat: <a href="https://maps.app.goo.gl/FCnH2groJPLpMcbr7?g_st=ac" target="_blank">Kp. Warudoyong Rt 011/008</a></p>
+        </div>
+        
+    <footer>
+        &copy; 2025 Adinda Semua Hak Dilindungi.
+    </footer>
+</body>
+</html>
